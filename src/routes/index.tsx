@@ -64,8 +64,8 @@ const projects: Project[] = [
   },
   {
     index: "03",
-    title: "Annonsehåndtering for bedrifter",
-    discipline: "BEDRIFTSSENTER · WEB",
+    title: "Mine annonser",
+    discipline: "FINN.NO",
     year: "2024",
     summary:
       "Oversikt over alle annonser med søk, filtrering og tydelig status — laget for at bedrifter raskt skal finne og følge opp det som betyr noe.",
