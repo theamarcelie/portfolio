@@ -169,7 +169,7 @@ function Index() {
         <div className="mx-auto max-w-6xl">
           <div className="reveal mb-16 flex items-baseline justify-between border-b border-border pb-6">
             <h2 className="display-font text-2xl tracking-[0.04em] text-foreground">
-              Prosjekter jeg har jobbet med
+              Utvalgte prosjekter
             </h2>
             <span className="text-[13px] text-muted-foreground">
               03 — 2024 / 2025
