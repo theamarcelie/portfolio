@@ -50,7 +50,7 @@ const projects: Project[] = [
     summary:
       "A consumer finance dashboard reimagined around calm. Quiet hierarchy, generous whitespace, and a motion language that turns dense data into something readable.",
     image: projectAurora,
-    alt: "Aurora finance dashboard interface on a warm off-white desk",
+    alt: "E-meldinger innboks for helsepersonell vist på skjerm i et sykehjemskontor",
   },
   {
     index: "02",
