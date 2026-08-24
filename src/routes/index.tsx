@@ -44,7 +44,7 @@ type Project = {
 const projects: Project[] = [
   {
     index: "01",
-    title: "Aurora",
+    title: "Samtaler for helsepersonell",
     discipline: "Finance platform · UI & interaction",
     year: "2025",
     summary:
@@ -54,8 +54,8 @@ const projects: Project[] = [
   },
   {
     index: "02",
-    title: "Saga",
-    discipline: "Wellness app · Mobile interaction",
+    title: "Min arbeidsdag",
+    discipline: "APP FOR HJEMMESYLEPLEIEN", 
     year: "2025",
     summary:
       "A meditation companion built on restraint. One gesture, one breath at a time — organic shapes and a soft, clay-toned palette guide the user inward.",
@@ -141,25 +141,23 @@ function Index() {
       >
         <div className="mx-auto w-full max-w-6xl">
           <p className="reveal text-[13px] tracking-[0.22em] uppercase text-muted-foreground">
-            UI & Interaction Designer
+            PRODUKTDESGINER
+          </p>
+          <p className="reveal text-[13px] tracking-[0.22em] uppercase text-muted-foreground">
+            DESIGNER
           </p>
           <h1 className="reveal display-font mt-6 text-balance text-[15vw] leading-[0.92] text-foreground sm:text-[12vw] md:text-[9.5rem]">
-            Quiet
-            <br />
-            interfaces,
-            <br />
-            considered.
+            Hei!
           </h1>
           <div className="reveal mt-12 flex flex-col gap-6 border-t border-border pt-8 sm:flex-row sm:items-end sm:justify-between">
             <p className="max-w-md text-pretty text-base leading-relaxed text-muted-foreground">
-              I'm Thea — a designer based in Oslo shaping digital products that
-              feel calm, human, and inevitable. Less, but better.
+              Jeg er Thea! En Oslo-basert designer som lager digitale produkter som gjør det enklere for folk å gjøre det de er gode på!
             </p>
             <a
               href="#work"
               className="link-underline inline-flex w-fit items-center gap-2 text-sm text-foreground"
             >
-              Selected work
+              Utvalgte arbeider↓
               <span aria-hidden="true">↓</span>
             </a>
           </div>
@@ -171,7 +169,7 @@ function Index() {
         <div className="mx-auto max-w-6xl">
           <div className="reveal mb-16 flex items-baseline justify-between border-b border-border pb-6">
             <h2 className="display-font text-2xl tracking-[0.04em] text-foreground">
-              Selected work
+              Prosjekter jeg har jobbet med
             </h2>
             <span className="text-[13px] text-muted-foreground">
               03 — 2024 / 2025
