@@ -166,24 +166,6 @@ function Index() {
         </div>
       </section>
 
-      {/* ---------- Capability marquee ---------- */}
-      <section
-        aria-label="Capabilities"
-        className="border-y border-border bg-secondary/40 py-4 overflow-hidden"
-      >
-        <div className="marquee-track flex w-max gap-12 whitespace-nowrap">
-          {[...capabilities, ...capabilities].map((c, i) => (
-            <span
-              key={i}
-              className="display-font text-sm tracking-[0.16em] uppercase text-muted-foreground"
-            >
-              {c}
-              <span className="ml-12 text-accent">·</span>
-            </span>
-          ))}
-        </div>
-      </section>
-
       {/* ---------- Selected work ---------- */}
       <section id="work" className="px-6 py-24 md:px-10 md:py-36">
         <div className="mx-auto max-w-6xl">
