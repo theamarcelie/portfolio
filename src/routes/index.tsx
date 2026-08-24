@@ -44,11 +44,11 @@ type Project = {
 const projects: Project[] = [
   {
     index: "01",
-    title: "Samtaler for helsepersonell",
-    discipline: "Finance platform · UI & interaction",
+    title: "Kommunikasjon for helsepersonell",
+    discipline: "E-MELDINGER OG CHAT",
     year: "2025",
     summary:
-      "A consumer finance dashboard reimagined around calm. Quiet hierarchy, generous whitespace, and a motion language that turns dense data into something readable.",
+      "I kommunehelsesektoren er det mange aktører som skal samarbeide om pasientbehandling.",
     image: projectAurora,
     alt: "E-meldinger innboks for helsepersonell vist på skjerm i et sykehjemskontor",
   },
@@ -58,7 +58,7 @@ const projects: Project[] = [
     discipline: "APP FOR HJEMMESYLEPLEIEN", 
     year: "2025",
     summary:
-      "A meditation companion built on restraint. One gesture, one breath at a time — organic shapes and a soft, clay-toned palette guide the user inward.",
+      "Vinteren og våren 2025 jobbet jeg med en native app for ansatte i hjemmesykepleien. Målet var å destillere de mest kritiske funksjonene for den brukergruppen i en app MVP",
     image: projectSaga,
     alt: "Mobilskjermer fra app for hjemmesykepleien: besøk med oppgaver og beskjeder",
   },
@@ -66,9 +66,9 @@ const projects: Project[] = [
     index: "03",
     title: "Mine annonser",
     discipline: "FINN.NO",
-    year: "2024",
+    year: "2020",
     summary:
-      "Oversikt over alle annonser med søk, filtrering og tydelig status — laget for at bedrifter raskt skal finne og følge opp det som betyr noe.",
+      "Redesigne mine annonser hos FINN, med fokus på hvilke statuser en annonse kan ha, og å skape en oversikt som fungerte like godt for privatpersoner som profesjonelle",
     image: projectLumen,
     alt: "Bedriftssenter i FINN med oversikt over alle annonser, søkefelt og statusfiltre",
 
