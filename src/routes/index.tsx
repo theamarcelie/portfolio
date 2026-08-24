@@ -64,13 +64,14 @@ const projects: Project[] = [
   },
   {
     index: "03",
-    title: "Lumen",
-    discipline: "Reading experience · Product design",
+    title: "Annonsehåndtering for bedrifter",
+    discipline: "BEDRIFTSSENTER · WEB",
     year: "2024",
     summary:
-      "An editorial reading app that treats long-form text the way a good magazine does. Airy margins, considered type, and a rhythm that respects attention.",
+      "Oversikt over alle annonser med søk, filtrering og tydelig status — laget for at bedrifter raskt skal finne og følge opp det som betyr noe.",
     image: projectLumen,
-    alt: "Lumen reading app on a tablet resting on warm linen",
+    alt: "Bedriftssenter i FINN med oversikt over alle annonser, søkefelt og statusfiltre",
+
   },
 ];
 
