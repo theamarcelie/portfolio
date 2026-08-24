@@ -143,6 +143,9 @@ function Index() {
           <p className="reveal text-[13px] tracking-[0.22em] uppercase text-muted-foreground">
             PRODUKTDESGINER
           </p>
+          <p className="reveal text-[13px] tracking-[0.22em] uppercase text-muted-foreground">
+            DESIGNER
+          </p>
           <h1 className="reveal display-font mt-6 text-balance text-[15vw] leading-[0.92] text-foreground sm:text-[12vw] md:text-[9.5rem]">
             Hei!
           </h1>
