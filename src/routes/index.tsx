@@ -75,16 +75,6 @@ const projects: Project[] = [
   },
 ];
 
-const capabilities = [
-  "Interface design",
-  "Interaction design",
-  "Design systems",
-  "Prototyping",
-  "Motion",
-  "Accessibility",
-  "Art direction",
-  "Usability",
-];
 
 function useReveal() {
   const ref = useRef<HTMLDivElement>(null);
