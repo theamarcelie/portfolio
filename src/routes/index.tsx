@@ -44,7 +44,7 @@ type Project = {
 const projects: Project[] = [
   {
     index: "01",
-    title: "Aurora",
+    title: "Samtaler for helsepersonell",
     discipline: "Finance platform · UI & interaction",
     year: "2025",
     summary:
@@ -54,8 +54,8 @@ const projects: Project[] = [
   },
   {
     index: "02",
-    title: "Saga",
-    discipline: "Wellness app · Mobile interaction",
+    title: "Min arbeidsdag",
+    discipline: "APP FOR HJEMMESYLEPLEIEN", 
     year: "2025",
     summary:
       "A meditation companion built on restraint. One gesture, one breath at a time — organic shapes and a soft, clay-toned palette guide the user inward.",
