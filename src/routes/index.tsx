@@ -60,8 +60,7 @@ const projects: Project[] = [
     summary:
       "A meditation companion built on restraint. One gesture, one breath at a time — organic shapes and a soft, clay-toned palette guide the user inward.",
     image: projectSaga,
-    alt: "Saga wellness app interface in a flatlay on cream paper",
-    tall: true,
+    alt: "Mobilskjermer fra app for hjemmesykepleien: besøk med oppgaver og beskjeder",
   },
   {
     index: "03",
