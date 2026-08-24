@@ -75,16 +75,6 @@ const projects: Project[] = [
   },
 ];
 
-const capabilities = [
-  "Interface design",
-  "Interaction design",
-  "Design systems",
-  "Prototyping",
-  "Motion",
-  "Accessibility",
-  "Art direction",
-  "Usability",
-];
 
 function useReveal() {
   const ref = useRef<HTMLDivElement>(null);
@@ -173,24 +163,6 @@ function Index() {
               <span aria-hidden="true">↓</span>
             </a>
           </div>
-        </div>
-      </section>
-
-      {/* ---------- Capability marquee ---------- */}
-      <section
-        aria-label="Capabilities"
-        className="border-y border-border bg-secondary/40 py-4 overflow-hidden"
-      >
-        <div className="marquee-track flex w-max gap-12 whitespace-nowrap">
-          {[...capabilities, ...capabilities].map((c, i) => (
-            <span
-              key={i}
-              className="display-font text-sm tracking-[0.16em] uppercase text-muted-foreground"
-            >
-              {c}
-              <span className="ml-12 text-accent">·</span>
-            </span>
-          ))}
         </div>
       </section>
 
