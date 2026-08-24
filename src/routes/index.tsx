@@ -157,7 +157,7 @@ function Index() {
               href="#work"
               className="link-underline inline-flex w-fit items-center gap-2 text-sm text-foreground"
             >
-              Utvalgte arbeider↓
+              Utvalgte prosjekter
               <span aria-hidden="true">↓</span>
             </a>
           </div>
