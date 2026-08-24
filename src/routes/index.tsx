@@ -44,11 +44,11 @@ type Project = {
 const projects: Project[] = [
   {
     index: "01",
-    title: "Samtaler for helsepersonell",
-    discipline: "Finance platform · UI & interaction",
+    title: "Kommunikasjon for helsepersonell",
+    discipline: "E-MELDINGER OG CHAT",
     year: "2025",
     summary:
-      "A consumer finance dashboard reimagined around calm. Quiet hierarchy, generous whitespace, and a motion language that turns dense data into something readable.",
+      "I kommunehelsesektoren er det mange aktører som skal samarbeide om pasientbehandling.",
     image: projectAurora,
     alt: "E-meldinger innboks for helsepersonell vist på skjerm i et sykehjemskontor",
   },
@@ -58,7 +58,7 @@ const projects: Project[] = [
     discipline: "APP FOR HJEMMESYLEPLEIEN", 
     year: "2025",
     summary:
-      "A meditation companion built on restraint. One gesture, one breath at a time — organic shapes and a soft, clay-toned palette guide the user inward.",
+      "Vinteren og våren 2025 jobbet jeg med en native app for ansatte i hjemmesykepleien. Målet var å destillere de mest kritiske funksjonene for den brukergruppen i en app MVP",
     image: projectSaga,
     alt: "Mobilskjermer fra app for hjemmesykepleien: besøk med oppgaver og beskjeder",
   },
@@ -66,9 +66,9 @@ const projects: Project[] = [
     index: "03",
     title: "Mine annonser",
     discipline: "FINN.NO",
-    year: "2024",
+    year: "2020",
     summary:
-      "Oversikt over alle annonser med søk, filtrering og tydelig status — laget for at bedrifter raskt skal finne og følge opp det som betyr noe.",
+      "Redesigne mine annonser hos FINN, med fokus på hvilke statuser en annonse kan ha, og å skape en oversikt som fungerte like godt for privatpersoner som profesjonelle",
     image: projectLumen,
     alt: "Bedriftssenter i FINN med oversikt over alle annonser, søkefelt og statusfiltre",
 
@@ -157,7 +157,7 @@ function Index() {
               href="#work"
               className="link-underline inline-flex w-fit items-center gap-2 text-sm text-foreground"
             >
-              Utvalgte arbeider↓
+              Utvalgte prosjekter
               <span aria-hidden="true">↓</span>
             </a>
           </div>
@@ -169,7 +169,7 @@ function Index() {
         <div className="mx-auto max-w-6xl">
           <div className="reveal mb-16 flex items-baseline justify-between border-b border-border pb-6">
             <h2 className="display-font text-2xl tracking-[0.04em] text-foreground">
-              Prosjekter jeg har jobbet med
+              Utvalgte prosjekter
             </h2>
             <span className="text-[13px] text-muted-foreground">
               03 — 2024 / 2025
@@ -204,17 +204,13 @@ function Index() {
           </div>
           <div className="reveal md:col-span-6 md:col-start-7 md:self-center">
             <p className="text-[13px] tracking-[0.22em] uppercase text-muted-foreground">
-              About
+              OM MEG
             </p>
             <h2 className="display-font mt-5 text-balance text-3xl leading-tight text-foreground md:text-4xl">
               Design that earns its place by saying less.
             </h2>
             <div className="mt-7 space-y-5 text-base leading-relaxed text-muted-foreground">
-              <p>
-                I design interfaces and interactions with a Scandinavian
-                sensibility — mid-century restraint with a softer, feminine edge.
-                Whitespace is a material; hierarchy is an act of care.
-              </p>
+              <p>Jeg designer løsninger for&nbsp;</p>
               <p>
                 My work spans consumer finance, wellness, and editorial products.
                 I care about the quiet moments: a transition that breathes, a
@@ -338,7 +334,7 @@ function ProjectRow({ project, flip }: { project: Project; flip: boolean }) {
           href="#work"
           className="link-underline mt-8 inline-flex items-center gap-2 text-sm text-foreground"
         >
-          View case study
+          Se flere eksempler →
           <span aria-hidden="true">→</span>
         </a>
       </div>
