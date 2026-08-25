@@ -31,6 +31,7 @@ export type Project = {
   intro: string;
   meta: { label: string; value: string }[];
   sections: ProjectSection[];
+  gallery?: ProjectGalleryItem[];
 };
 
 export const projects: Project[] = [
