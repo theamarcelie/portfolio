@@ -1,10 +1,21 @@
 import projectAurora from "@/assets/project-aurora.jpg";
 import projectSaga from "@/assets/project-saga.jpg";
 import projectLumen from "@/assets/project-lumen.jpg";
+import layoutAsset from "@/assets/Layout.png.asset.json";
+import section1Asset from "@/assets/Section_1.png.asset.json";
+import section2Asset from "@/assets/Section_2.png.asset.json";
+import shortcutAsset from "@/assets/shortcut.png.asset.json";
 
 export type ProjectSection = {
   heading: string;
   body: string[];
+};
+
+export type ProjectGalleryItem = {
+  src: string;
+  alt: string;
+  caption: string;
+  wide?: boolean;
 };
 
 export type Project = {
@@ -20,6 +31,7 @@ export type Project = {
   intro: string;
   meta: { label: string; value: string }[];
   sections: ProjectSection[];
+  gallery?: ProjectGalleryItem[];
 };
 
 export const projects: Project[] = [
@@ -62,6 +74,36 @@ export const projects: Project[] = [
           "En innboks med tydelig status og avsender, pasientkort ved siden av meldingstråden, og en lesevisning som holder hele historikken tilgjengelig uten å kreve navigasjon bort fra tråden.",
           "Språket er nøkternt og handlingsorientert: hva har skjedd, hva må gjøres, og av hvem.",
         ],
+      },
+    ],
+    gallery: [
+      {
+        src: layoutAsset.url,
+        alt: "Skjermbilde av dialogen «Helsefaglig dialog» med avsender, mottaker, tema, emne og notat",
+        caption:
+          "Ny e-melding: skjemaet holder pasientkonteksten i venstre kolonne, mens dialogen forklarer hvilke mottakere som faktisk støtter meldingstypen.",
+        wide: true,
+      },
+      {
+        src: shortcutAsset.url,
+        alt: "Mottakersøk med snarveier til fagområder og «Sist brukt av deg»",
+        caption:
+          "Snarveier og «sist brukt» kutter det mest repetitive søket etter mottaker.",
+        wide: true,
+      },
+      {
+        src: section1Asset.url,
+        alt: "Rekke med mobilskjermer som viser flyten for å starte en ny samtale",
+        caption:
+          "Mobilflyten for ny samtale, skjerm for skjerm — fra tomt utgangspunkt til valgte mottakere og sendt melding.",
+        wide: true,
+      },
+      {
+        src: section2Asset.url,
+        alt: "To mobilskjermer med chat-tråden «Påskeferien»",
+        caption:
+          "Chat-tråden i to varianter: med og uten avsendernavn og lest-status.",
+        wide: true,
       },
     ],
   },

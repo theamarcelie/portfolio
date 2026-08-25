@@ -130,6 +130,32 @@ function ProjectPage() {
               </section>
             ))}
           </div>
+
+          {/* Gallery */}
+          {project.gallery && project.gallery.length > 0 ? (
+            <div className="mt-20 border-t border-border pt-10 md:mt-28">
+              <p className="text-[13px] tracking-[0.22em] uppercase text-muted-foreground">
+                Utvalgte skjermbilder
+              </p>
+              <div className="mt-10 flex flex-col gap-16 md:gap-24">
+                {project.gallery.map((item) => (
+                  <figure key={item.src}>
+                    <div className="overflow-hidden bg-secondary">
+                      <img
+                        src={item.src}
+                        alt={item.alt}
+                        loading="lazy"
+                        className="w-full object-contain"
+                      />
+                    </div>
+                    <figcaption className="mt-4 max-w-xl text-sm leading-relaxed text-muted-foreground">
+                      {item.caption}
+                    </figcaption>
+                  </figure>
+                ))}
+              </div>
+            </div>
+          ) : null}
         </article>
 
         {/* Next projects */}
