@@ -1,10 +1,21 @@
 import projectAurora from "@/assets/project-aurora.jpg";
 import projectSaga from "@/assets/project-saga.jpg";
 import projectLumen from "@/assets/project-lumen.jpg";
+import layoutAsset from "@/assets/Layout.png.asset.json";
+import section1Asset from "@/assets/Section_1.png.asset.json";
+import section2Asset from "@/assets/Section_2.png.asset.json";
+import shortcutAsset from "@/assets/shortcut.png.asset.json";
 
 export type ProjectSection = {
   heading: string;
   body: string[];
+};
+
+export type ProjectGalleryItem = {
+  src: string;
+  alt: string;
+  caption: string;
+  wide?: boolean;
 };
 
 export type Project = {
