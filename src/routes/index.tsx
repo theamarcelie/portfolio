@@ -332,9 +332,9 @@ function ProjectRow({ project, flip }: { project: Project; flip: boolean }) {
         </p>
         <a
           href="#work"
-          className="link-underline mt-8 inline-flex items-center gap-2 text-sm text-foreground"
+          className="link-underline mt-8 inline-flex flex-col items-start text-sm text-foreground"
         >
-          Se flere eksempler →
+          <span>Se flere eksempler</span>
           <span aria-hidden="true">→</span>
         </a>
       </div>
