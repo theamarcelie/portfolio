@@ -29,50 +29,8 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-type Project = {
-  index: string;
-  title: string;
-  discipline: string;
-  year: string;
-  summary: string;
-  image: string;
-  alt: string;
-  tall?: boolean;
-};
 
-const projects: Project[] = [
-  {
-    index: "01",
-    title: "Kommunikasjon for helsepersonell",
-    discipline: "E-MELDINGER OG CHAT",
-    year: "2025",
-    summary:
-      "I kommunehelsesektoren er det mange aktører som skal samarbeide om pasientbehandling.",
-    image: projectAurora,
-    alt: "E-meldinger innboks for helsepersonell vist på skjerm i et sykehjemskontor",
-  },
-  {
-    index: "02",
-    title: "Min arbeidsdag",
-    discipline: "APP FOR HJEMMESYLEPLEIEN", 
-    year: "2025",
-    summary:
-      "Vinteren og våren 2025 jobbet jeg med en native app for ansatte i hjemmesykepleien. Målet var å destillere de mest kritiske funksjonene for den brukergruppen i en app MVP",
-    image: projectSaga,
-    alt: "Mobilskjermer fra app for hjemmesykepleien: besøk med oppgaver og beskjeder",
-  },
-  {
-    index: "03",
-    title: "Mine annonser",
-    discipline: "FINN.NO",
-    year: "2020",
-    summary:
-      "Redesigne mine annonser hos FINN, med fokus på hvilke statuser en annonse kan ha, og å skape en oversikt som fungerte like godt for privatpersoner som profesjonelle",
-    image: projectLumen,
-    alt: "Bedriftssenter i FINN med oversikt over alle annonser, søkefelt og statusfiltre",
 
-  },
-];
 
 
 function useReveal() {
