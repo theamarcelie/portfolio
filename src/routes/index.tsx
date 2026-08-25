@@ -1,10 +1,9 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useRef } from "react";
 
-import projectAurora from "@/assets/project-aurora.jpg";
-import projectSaga from "@/assets/project-saga.jpg";
-import projectLumen from "@/assets/project-lumen.jpg";
+import { projects, type Project } from "@/lib/projects";
 import aboutTexture from "@/assets/about-texture.jpg";
+
 
 export const Route = createFileRoute("/")({
   head: () => ({
