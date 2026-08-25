@@ -258,7 +258,11 @@ function ProjectRow({ project, flip }: { project: Project; flip: boolean }) {
       }`}
     >
       <div className="md:col-span-7 md:[direction:ltr]">
-        <div className="group relative overflow-hidden">
+        <Link
+          to="/prosjekt/$slug"
+          params={{ slug: project.slug }}
+          className="group relative block overflow-hidden"
+        >
           <img
             src={project.image}
             alt={project.alt}
@@ -269,7 +273,7 @@ function ProjectRow({ project, flip }: { project: Project; flip: boolean }) {
               project.tall ? "aspect-[8/10]" : "aspect-[16/10]"
             }`}
           />
-        </div>
+        </Link>
       </div>
       <div className="md:col-span-5 md:[direction:ltr]">
         <div className="flex items-baseline justify-between">
@@ -287,14 +291,16 @@ function ProjectRow({ project, flip }: { project: Project; flip: boolean }) {
         <p className="mt-6 text-base leading-relaxed text-muted-foreground">
           {project.summary}
         </p>
-        <a
-          href="#work"
+        <Link
+          to="/prosjekt/$slug"
+          params={{ slug: project.slug }}
           className="link-underline mt-8 inline-flex flex-col items-start text-sm text-foreground"
         >
           <span>Se flere eksempler</span>
           <span aria-hidden="true">→</span>
-        </a>
+        </Link>
       </div>
+
     </article>
   );
 }
