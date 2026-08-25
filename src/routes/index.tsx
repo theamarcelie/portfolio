@@ -1,10 +1,9 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useRef } from "react";
 
-import projectAurora from "@/assets/project-aurora.jpg";
-import projectSaga from "@/assets/project-saga.jpg";
-import projectLumen from "@/assets/project-lumen.jpg";
+import { projects, type Project } from "@/lib/projects";
 import aboutTexture from "@/assets/about-texture.jpg";
+
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -30,50 +29,8 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-type Project = {
-  index: string;
-  title: string;
-  discipline: string;
-  year: string;
-  summary: string;
-  image: string;
-  alt: string;
-  tall?: boolean;
-};
 
-const projects: Project[] = [
-  {
-    index: "01",
-    title: "Kommunikasjon for helsepersonell",
-    discipline: "E-MELDINGER OG CHAT",
-    year: "2025",
-    summary:
-      "I kommunehelsesektoren er det mange aktører som skal samarbeide om pasientbehandling.",
-    image: projectAurora,
-    alt: "E-meldinger innboks for helsepersonell vist på skjerm i et sykehjemskontor",
-  },
-  {
-    index: "02",
-    title: "Min arbeidsdag",
-    discipline: "APP FOR HJEMMESYLEPLEIEN", 
-    year: "2025",
-    summary:
-      "Vinteren og våren 2025 jobbet jeg med en native app for ansatte i hjemmesykepleien. Målet var å destillere de mest kritiske funksjonene for den brukergruppen i en app MVP",
-    image: projectSaga,
-    alt: "Mobilskjermer fra app for hjemmesykepleien: besøk med oppgaver og beskjeder",
-  },
-  {
-    index: "03",
-    title: "Mine annonser",
-    discipline: "FINN.NO",
-    year: "2020",
-    summary:
-      "Redesigne mine annonser hos FINN, med fokus på hvilke statuser en annonse kan ha, og å skape en oversikt som fungerte like godt for privatpersoner som profesjonelle",
-    image: projectLumen,
-    alt: "Bedriftssenter i FINN med oversikt over alle annonser, søkefelt og statusfiltre",
 
-  },
-];
 
 
 function useReveal() {
@@ -301,7 +258,11 @@ function ProjectRow({ project, flip }: { project: Project; flip: boolean }) {
       }`}
     >
       <div className="md:col-span-7 md:[direction:ltr]">
-        <div className="group relative overflow-hidden">
+        <Link
+          to="/prosjekt/$slug"
+          params={{ slug: project.slug }}
+          className="group relative block overflow-hidden"
+        >
           <img
             src={project.image}
             alt={project.alt}
@@ -312,7 +273,7 @@ function ProjectRow({ project, flip }: { project: Project; flip: boolean }) {
               project.tall ? "aspect-[8/10]" : "aspect-[16/10]"
             }`}
           />
-        </div>
+        </Link>
       </div>
       <div className="md:col-span-5 md:[direction:ltr]">
         <div className="flex items-baseline justify-between">
@@ -330,14 +291,16 @@ function ProjectRow({ project, flip }: { project: Project; flip: boolean }) {
         <p className="mt-6 text-base leading-relaxed text-muted-foreground">
           {project.summary}
         </p>
-        <a
-          href="#work"
+        <Link
+          to="/prosjekt/$slug"
+          params={{ slug: project.slug }}
           className="link-underline mt-8 inline-flex flex-col items-start text-sm text-foreground"
         >
           <span>Se flere eksempler</span>
           <span aria-hidden="true">→</span>
-        </a>
+        </Link>
       </div>
+
     </article>
   );
 }
