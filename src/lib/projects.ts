@@ -5,6 +5,14 @@ import layoutAsset from "@/assets/Layout.png.asset.json";
 import section1Asset from "@/assets/Section_1.png.asset.json";
 import section2Asset from "@/assets/Section_2.png.asset.json";
 import shortcutAsset from "@/assets/shortcut.png.asset.json";
+import statuser1 from "@/assets/statuser-1.png.asset.json";
+import statuser2 from "@/assets/statuser-2.png.asset.json";
+import statuser3 from "@/assets/statuser-3.png.asset.json";
+import statuser4 from "@/assets/statuser-4.png.asset.json";
+import statuser5 from "@/assets/statuser-5.png.asset.json";
+import statuser6 from "@/assets/statuser-6.png.asset.json";
+import statuser7 from "@/assets/statuser-7.png.asset.json";
+import annonserDemo from "@/assets/mine-annonser-demo.mp4.asset.json";
 
 export type ProjectSection = {
   heading: string;
@@ -16,6 +24,8 @@ export type ProjectGalleryItem = {
   alt: string;
   caption: string;
   wide?: boolean;
+  kind?: "image" | "video";
+  portrait?: boolean;
 };
 
 export type Project = {
@@ -171,23 +181,84 @@ export const projects: Project[] = [
       {
         heading: "Utfordringen",
         body: [
-          "Annonser kunne være aktive, inaktive, utløpte, til godkjenning eller solgt — men statusene var uklare og ble kommunisert ulikt på tvers av flatene.",
-          "Samtidig hadde privatpersoner og profesjonelle svært forskjellige behov for volum, søk og filtrering.",
+          "En annonse kunne i praksis ha 72 forskjellige statuser, satt fra admin, apper, import og Innfinn. Resultatet var mange bugs, forvirrede brukere og mye arbeid for kundeservice.",
+          "Vi eksponerte vår egen tekniske kompleksitet for brukerne: det var ikke samsvar mellom hva selgeren forventet og hva som faktisk skjedde «på baksiden».",
         ],
       },
       {
         heading: "Prosess",
         body: [
-          "Jeg begynte med å kartlegge alle mulige tilstander en annonse kan ha, og hvilke handlinger som er gyldige i hver av dem.",
-          "Deretter testet vi listevisningen med begge brukergruppene, og justerte hvor mye informasjon som skulle ligge i selve raden versus i detaljvisningen.",
+          "Jeg kartla annonsens livsløp mot brukerreisen — før, under og etter — og plasserte hver status og hver tilgjengelige handling i den fasen den hører til.",
+          "Samtidig så vi på fasaden: alle kildene som setter status ble samlet bak én måte å beskrive vare eller tjeneste på, slik at FINN kun forholder seg til et lite, forutsigbart sett tilstander.",
+          "Deretter testet vi listevisningen med både privatpersoner og profesjonelle, og justerte hvor mye informasjon som skulle ligge i selve raden versus i detaljvisningen.",
         ],
       },
       {
         heading: "Løsningen",
         body: [
-          "Én oversikt som skalerer: søk og statusfiltre øverst, kompakte rader med bilde, tittel, pris og status, og handlinger der de er relevante.",
-          "Statusspråket ble ryddet opp i og gjenbrukt konsekvent, slik at samme ord betyr samme ting overalt.",
+          "Fra 72 til 7 statuser: Påbegynt, Aktiv, Skjult, Utløpt, Avvist, Venter og Ferdig. En annonse kan teknisk ha flere tilstander samtidig, men brukeren ser alltid bare den øverste i prioriteringslisten.",
+          "Statusen forteller hvor brukeren er i reisen, ikke hva systemet holder på med — og handlingene som vises, er de som faktisk er gyldige i den tilstanden.",
+          "Oversikten skalerer: søk og statusfiltre øverst, kompakte rader med bilde, tittel, pris og status, og samme statusspråk gjenbrukt konsekvent på tvers av flater.",
         ],
+      },
+    ],
+    gallery: [
+      {
+        src: annonserDemo.url,
+        alt: "Skjermopptak av annonseoversikten der status og handlinger endrer seg",
+        caption:
+          "Prototypen i bruk: statusen og de tilgjengelige handlingene endrer seg sammen med hvor annonsen er i livsløpet.",
+        kind: "video",
+        portrait: true,
+      },
+      {
+        src: statuser1.url,
+        alt: "Slide: Visste du at annonser også har et livsløp?",
+        caption:
+          "Utgangspunktet for statusprosjektet — behovet for å forenkle, og kostnaden av kompleksiteten vi eksponerte.",
+        wide: true,
+      },
+      {
+        src: statuser2.url,
+        alt: "Slide: Brukerbehov og teknisk forenkling med tre faser før, under og etter",
+        caption:
+          "Nesten alle som legger ut en annonse går gjennom de samme tre fasene: før, under og etter.",
+        wide: true,
+      },
+      {
+        src: statuser3.url,
+        alt: "Slide: Brukerbehov med eksempler på statuser og handlinger",
+        caption:
+          "Statusene som fantes rundt om i produktet — inkonsekvente navn for det samme, og ulike handlinger per flate.",
+        wide: true,
+      },
+      {
+        src: statuser4.url,
+        alt: "Slide: Teknisk forenkling — fasaden som samler admin, apper, import og Innfinn",
+        caption:
+          "Fasaden: alle kildene som setter status samles bak én beskrivelse av vare eller tjeneste.",
+        wide: true,
+      },
+      {
+        src: statuser5.url,
+        alt: "Slide: Statuser og handlinger plassert i fasene før, under og etter",
+        caption:
+          "Hele kartet: hver status og handling plassert i brukerreisen, sett fra både selger og kjøper.",
+        wide: true,
+      },
+      {
+        src: statuser6.url,
+        alt: "Slide: Fra 72 til 7 statuser med forklaring av hver status",
+        caption:
+          "Resultatet: 7 statuser med tydelig definisjon, prioritert slik at brukeren alltid ser den mest relevante.",
+        wide: true,
+      },
+      {
+        src: statuser7.url,
+        alt: "Slide: Gjenstående nøtter med gule og grønne lapper",
+        caption:
+          "Gjenstående nøtter — kjente utfordringer vi bevisst lot ligge til neste runde.",
+        wide: true,
       },
     ],
   },
