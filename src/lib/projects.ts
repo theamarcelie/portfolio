@@ -166,6 +166,84 @@ export const projects: Project[] = [
           "Store trykkflater, tydelig fullført-tilstand og et minimum av navigasjon — man skal komme fra låsskjerm til neste oppgave i to trykk.",
         ],
       },
+      {
+        heading: "Prinsipper og uttrykk",
+        body: [
+          "Appen er bevisst enklere enn web: færre, men mer presise funksjoner, med flyter som gjenkjennes fra webløsningen og navigasjon som følger native mønstre.",
+          "Visuelt ligger den mellom native konvensjoner og Aidns merkevare — nøkternt, åpent og raskt å lese. Språket er varmt og enkelt, men aldri på bekostning av det faglige.",
+        ],
+      },
+      {
+        heading: "Veien videre",
+        body: [
+          "MVP-en ble et startpunkt for pilotering og læring, og et teknisk fundament for react native i Aidn. Innlogging og autentisering ble løst sammen med IAM og HelseID.",
+          "Neste steg: tettere samarbeid med andre team, en tydeligere langsiktig plan, bedre produkt- og teknisk dokumentasjon, og en mer avklart visuell retning.",
+        ],
+      },
+    ],
+    gallery: [
+      {
+        src: arbeidsdagBrief.url,
+        alt: "Slide: Brief — lag en native app for «Min arbeidsdag» til hjemmetjenesten, tilgjengelig offline",
+        caption:
+          "Briefen: dekke funksjonaliteten i «Min arbeidsdag» i en native app for hjemmebaserte tjenester — offline, med frist 1. april.",
+        wide: true,
+      },
+      {
+        src: arbeidsdagUserGroup.url,
+        alt: "Slide: My workday user group med bilder av brukerne, kontoret deres og verktøyene deres",
+        caption:
+          "Brukergruppen: kontoret er bilen og pasientens hjem, og verktøyene er en delt telefon og et papirark i lomma.",
+        wide: true,
+      },
+      {
+        src: arbeidsdagJ2bd.url,
+        alt: "Slide: Jobs to be done — funksjonelle, emosjonelle og sosiale behov",
+        caption:
+          "Jobs to be done: oversikt over dagen og enkel dokumentasjon, trygghet før krevende besøk, og et team det er lett å be om hjelp i.",
+        wide: true,
+      },
+      {
+        src: arbeidsdagPrinsipper.url,
+        alt: "Slide: prinsipper for funksjon, visuelt uttrykk og innhold",
+        caption:
+          "Prinsippene vi jobbet etter — færre og mer presise funksjoner, et bevisst enkelt uttrykk, og et varmt men faglig språk.",
+        wide: true,
+      },
+      {
+        src: arbeidsdagIcon.url,
+        alt: "Appikonet i mørk og lys variant, i firkantet og rund maske",
+        caption:
+          "Appikonet i prod- og testvariant, testet i både firkantet og rund maske.",
+        wide: true,
+      },
+      {
+        src: arbeidsdagBackground.url,
+        alt: "To statiske bakgrunnsbilder med myke rosa og oransje gradienter",
+        caption:
+          "Bakgrunnene: statiske, myke gradienter som gir appen varme uten å stjele oppmerksomhet fra innholdet.",
+        wide: true,
+      },
+      {
+        src: arbeidsdagPreProject1.url,
+        alt: "Slide: What we have instead, med skjermbilder av dagsoversikt og besøk hos Anna",
+        caption:
+          "Resultatet ved frist: en fungerende app med dagsoversikt og oppgaver per besøk, innlogging løst med IAM og HelseID.",
+        wide: true,
+      },
+      {
+        src: arbeidsdagPreProject.url,
+        alt: "Slide: Pre project? med telefon som viser medisinutdeling",
+        caption:
+          "Forprosjektet vi ba om: bedre langtidsplan, dokumentasjon og en avklart visuell retning.",
+        wide: true,
+      },
+      {
+        src: arbeidsdagNextStep.url,
+        alt: "Slide: Vision and choices",
+        caption: "Neste steg: visjon og de valgene som følger av den.",
+        wide: true,
+      },
     ],
   },
   {
