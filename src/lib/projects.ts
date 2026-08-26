@@ -5,6 +5,14 @@ import layoutAsset from "@/assets/Layout.png.asset.json";
 import section1Asset from "@/assets/Section_1.png.asset.json";
 import section2Asset from "@/assets/Section_2.png.asset.json";
 import shortcutAsset from "@/assets/shortcut.png.asset.json";
+import statuser1 from "@/assets/statuser-1.png.asset.json";
+import statuser2 from "@/assets/statuser-2.png.asset.json";
+import statuser3 from "@/assets/statuser-3.png.asset.json";
+import statuser4 from "@/assets/statuser-4.png.asset.json";
+import statuser5 from "@/assets/statuser-5.png.asset.json";
+import statuser6 from "@/assets/statuser-6.png.asset.json";
+import statuser7 from "@/assets/statuser-7.png.asset.json";
+import annonserDemo from "@/assets/mine-annonser-demo.mp4.asset.json";
 
 export type ProjectSection = {
   heading: string;
