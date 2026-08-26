@@ -13,6 +13,15 @@ import statuser5 from "@/assets/statuser-5.png.asset.json";
 import statuser6 from "@/assets/statuser-6.png.asset.json";
 import statuser7 from "@/assets/statuser-7.png.asset.json";
 import annonserDemo from "@/assets/mine-annonser-demo.mp4.asset.json";
+import arbeidsdagBrief from "@/assets/arbeidsdag-brief.png.asset.json";
+import arbeidsdagUserGroup from "@/assets/arbeidsdag-user-group.png.asset.json";
+import arbeidsdagJ2bd from "@/assets/arbeidsdag-j2bd.png.asset.json";
+import arbeidsdagPrinsipper from "@/assets/arbeidsdag-prinsipper.png.asset.json";
+import arbeidsdagIcon from "@/assets/arbeidsdag-icon.png.asset.json";
+import arbeidsdagBackground from "@/assets/arbeidsdag-background.png.asset.json";
+import arbeidsdagPreProject1 from "@/assets/arbeidsdag-pre-project-1.png.asset.json";
+import arbeidsdagPreProject from "@/assets/arbeidsdag-pre-project.png.asset.json";
+import arbeidsdagNextStep from "@/assets/arbeidsdag-next-step.png.asset.json";
 
 export type ProjectSection = {
   heading: string;
