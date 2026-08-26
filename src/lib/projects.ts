@@ -24,6 +24,8 @@ export type ProjectGalleryItem = {
   alt: string;
   caption: string;
   wide?: boolean;
+  kind?: "image" | "video";
+  portrait?: boolean;
 };
 
 export type Project = {
