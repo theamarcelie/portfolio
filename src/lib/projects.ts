@@ -98,8 +98,8 @@ export const projects: Project[] = [
       {
         heading: "Løsningen",
         body: [
-          "En innboks med tydelig status og avsender, pasientkort ved siden av meldingstråden, og en lesevisning som holder hele historikken tilgjengelig uten å kreve navigasjon bort fra tråden.",
-          "Språket er nøkternt og handlingsorientert: hva har skjedd, hva må gjøres, og av hvem.",
+          "To separate flater, ikke én samlet: e-meldinger for formell, journalførbar kommunikasjon, og chat for det raske, uformelle. Begge deler samme pasientkontekst og samme språk.",
+          "Hver flate har tydelig status og avsender, et pasientkort ved siden av tråden, og en lesevisning som holder historikken tilgjengelig uten å forlate tråden.",
         ],
       },
     ],
