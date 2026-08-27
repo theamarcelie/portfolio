@@ -219,6 +219,43 @@ export const projects: Project[] = [
         wide: true,
       },
       {
+        caption:
+          "Besøk og kollegaer: å ta et besøk med valgte oppgaver og starttid, dagens besøk i rekkefølge, og hvem som er på jobb — med telefonnummeret ett trykk unna.",
+        group: [
+          {
+            src: arbeidsdagTaBesok.url,
+            alt: "Skjerm «Ta besøk» med oppgaveliste og starttid for Anna Evensen",
+          },
+          {
+            src: arbeidsdagAlleBesok.url,
+            alt: "Skjerm «Alle besøk» med tidspunkt, navn og adresse per besøk",
+          },
+          {
+            src: arbeidsdagKolleger.url,
+            alt: "Skjerm «Kollegaer» med hvem som er på jobb og deres besøk",
+          },
+        ],
+      },
+      {
+        caption:
+          "Beskjeder: korte meldinger som ikke hører i journalen, med gyldighetsperiode, kvittering for utført og hvor mange som har sett dem.",
+        group: [
+          {
+            src: arbeidsdagBeskjeder.url,
+            alt: "Skjerm «Beskjeder» med aktive og utførte beskjeder",
+          },
+          {
+            src: arbeidsdagPasientbeskjeder.url,
+            alt: "Beskjeder knyttet til én pasient, med utfør-knapp",
+          },
+          {
+            src: arbeidsdagNyBeskjed.url,
+            alt: "Skjerm «Ny beskjed» med pasientsøk, tekstfelt og datointervall",
+          },
+        ],
+      },
+
+      {
         src: arbeidsdagIcon.url,
         alt: "Appikonet i mørk og lys variant, i firkantet og rund maske",
         caption:
