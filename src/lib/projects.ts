@@ -66,14 +66,14 @@ export const projects: Project[] = [
     slug: "kommunikasjon-for-helsepersonell",
     index: "01",
     title: "Kommunikasjon for helsepersonell",
-    discipline: "E-MELDINGER OG CHAT",
+    discipline: "E-MELDINGER OG SAMTALER MED KOLLEGER",
     year: "2026",
     summary:
-      "Jeg jobber med kommunikasjonsflater i AIdn — e-meldinger og chat som to separate, men likevel sammenhengende flater.",
+      "Akkurat nå jobber jeg med kommunikasjonsflater i Aidn",
     image: projectAurora,
     alt: "E-meldinger innboks for helsepersonell vist på skjerm i et sykehjemskontor",
     intro:
-      "Siden mars 2026 har jeg jobbet med kommunikasjonsflater i AIdn. Jeg designer e-meldinger og chat som to separate flater, ikke én samlet — hver med sitt formål, men med felles pasientkontekst og et felles språk.",
+      "Siden mars 2026 har jeg jobbet med kommunikasjonsflater i AIdn. Jeg designer løsning for e-meldinger og en intern meldingsplattform mellom helsepersonell på tvers av organisasjoner",
     meta: [
       { label: "Rolle", value: "Produktdesigner" },
       { label: "År", value: "2026" },
@@ -92,16 +92,9 @@ export const projects: Project[] = [
         heading: "Prosess",
         body: [
           "Jeg observerte arbeidsdagen på sykehjem og i hjemmetjenesten, kartla meldingstypene og prioriterte dem etter hvor tidskritiske de er.",
-          "Deretter testet jeg flere innboksmodeller: én samlet liste, gruppering per pasient og gruppering per avsender. Pasientkonteksten vant tydelig — det er pasienten de tenker i, ikke systemet.",
+          
         ],
-      },
-      {
-        heading: "Løsningen",
-        body: [
-          "To separate flater, ikke én samlet: e-meldinger for formell, journalførbar kommunikasjon, og chat for det raske, uformelle. Begge deler samme pasientkontekst og samme språk.",
-          "Hver flate har tydelig status og avsender, et pasientkort ved siden av tråden, og en lesevisning som holder historikken tilgjengelig uten å forlate tråden.",
-        ],
-      },
+      },        
     ],
     gallery: [
       {
@@ -156,8 +149,8 @@ export const projects: Project[] = [
       {
         heading: "Utfordringen",
         body: [
-          "Ansatte i hjemmesykepleien jobber mobilt, ofte med hansker, dårlig dekning og korte pauser mellom besøk. Fagsystemene deres er laget for skrivebord.",
-          "Vi måtte velge: hva må være i en MVP, og hva kan vente til neste versjon?",
+          "Ansatte i hjemmesykepleien jobber hjemme hos pasienten, ofte med dårlig dekning og korte pauser mellom besøk. Fagsystemene deres er laget for skrivebord.",
+          "Ansatte i hjemmesykepleien utgjør den klart største gruppen ansatte i kommunehelsetjenesten",
         ],
       },
       {
@@ -177,7 +170,7 @@ export const projects: Project[] = [
       {
         heading: "Prinsipper og uttrykk",
         body: [
-          "Appen er bevisst enklere enn web: færre, men mer presise funksjoner, med flyter som gjenkjennes fra webløsningen og navigasjon som følger native mønstre.",
+          "Appen er bevisst enklere enn web: færre, men mer presise funksjoner for brukergruppen, med flyter som gjenkjennes fra webløsningen og navigasjon som følger native mønstre.",
           "Visuelt ligger den mellom native konvensjoner og Aidns merkevare — nøkternt, åpent og raskt å lese. Språket er varmt og enkelt, men aldri på bekostning av det faglige.",
         ],
       },

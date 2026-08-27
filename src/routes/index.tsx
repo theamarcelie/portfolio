@@ -76,16 +76,16 @@ function Index() {
           </a>
           <nav className="flex items-center gap-7 text-[13px] text-muted-foreground">
             <a href="#work" className="link-underline hidden sm:inline">
-              Work
+              Arbeider
             </a>
             <a href="#about" className="link-underline hidden sm:inline">
-              About
+              Om meg
             </a>
             <a
               href="mailto:hello@theasvantorp.com"
               className="link-underline text-foreground"
             >
-              Contact
+              Ta kontakt
             </a>
           </nav>
         </div>
@@ -175,65 +175,14 @@ function Index() {
                 liker enkle, fokuserte grensesnitt uten at de blir sterile.
               </p>
               <p>
-                Når jeg ikke jobber, tilbringer jeg aller helst tiden med mine to
-                barn, gjerne i aktivitet og utendørs. Jeg er også glad i å lage mat
-                til venner og familie, prøver å bli bedre på håndarbeid, og leser
-                hver kveld før jeg sovner.
+                Når jeg ikke jobber, tilbringer jeg aller helst tiden med mannen min og våre to
+                barn, gjerne i aktivitet og utendørs. Jeg elsker å lære nye ting, og å lage mat
+                til venner og familie.
               </p>
             </div>
           </div>
         </div>
       </section>
-
-      {/* ---------- Contact ---------- */}
-      <footer
-        id="contact"
-        className="border-t border-border px-6 py-24 md:px-10 md:py-32"
-      >
-        <div className="reveal mx-auto max-w-6xl">
-          <p className="text-[13px] tracking-[0.22em] uppercase text-muted-foreground">
-            Let's make something quiet
-          </p>
-          <a
-            href="mailto:hello@theasvantorp.com"
-            className="display-font mt-6 block text-balance text-4xl leading-tight text-foreground md:text-6xl"
-          >
-            hello@theasvantorp.com
-          </a>
-          <div className="mt-14 flex flex-col gap-4 border-t border-border pt-8 text-sm text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
-            <span className="display-font tracking-[0.18em] uppercase text-foreground">
-              Thea Svantorp
-            </span>
-            <div className="flex items-center gap-7">
-              <a
-                href="https://www.linkedin.com"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="link-underline"
-              >
-                LinkedIn
-              </a>
-              <a
-                href="https://www.instagram.com"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="link-underline"
-              >
-                Instagram
-              </a>
-              <a
-                href="https://www.dribbble.com"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="link-underline"
-              >
-                Dribbble
-              </a>
-            </div>
-            <span>© {new Date().getFullYear()}</span>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
@@ -284,7 +233,7 @@ function ProjectRow({ project, flip }: { project: Project; flip: boolean }) {
           params={{ slug: project.slug }}
           className="link-underline mt-8 inline-flex flex-col items-start text-sm text-foreground"
         >
-          <span>Se flere eksempler</span>
+          <span>Se mer</span>
           <span aria-hidden="true">→</span>
         </Link>
       </div>
