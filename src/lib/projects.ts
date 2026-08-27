@@ -22,6 +22,12 @@ import arbeidsdagBackground from "@/assets/arbeidsdag-background.png.asset.json"
 import arbeidsdagPreProject1 from "@/assets/arbeidsdag-pre-project-1.png.asset.json";
 import arbeidsdagPreProject from "@/assets/arbeidsdag-pre-project.png.asset.json";
 import arbeidsdagNextStep from "@/assets/arbeidsdag-next-step.png.asset.json";
+import arbeidsdagTaBesok from "@/assets/arbeidsdag-ta-besok.png.asset.json";
+import arbeidsdagAlleBesok from "@/assets/arbeidsdag-alle-besok.png.asset.json";
+import arbeidsdagKolleger from "@/assets/arbeidsdag-kolleger.png.asset.json";
+import arbeidsdagBeskjeder from "@/assets/arbeidsdag-beskjeder.png.asset.json";
+import arbeidsdagNyBeskjed from "@/assets/arbeidsdag-ny-beskjed.png.asset.json";
+import arbeidsdagPasientbeskjeder from "@/assets/arbeidsdag-pasientbeskjeder.png.asset.json";
 
 export type ProjectSection = {
   heading: string;
