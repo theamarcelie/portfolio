@@ -164,19 +164,21 @@ function Index() {
               OM MEG
             </p>
             <h2 className="display-font mt-5 text-balance text-3xl leading-tight text-foreground md:text-4xl">
-              Fra Trondheim til St. Hanshaugen — med design som rødt tråd.
+              Enkle grensesnitt som varer.
             </h2>
             <div className="mt-7 space-y-5 text-base leading-relaxed text-muted-foreground">
               <p>
                 Jeg heter Thea, er opprinnelig fra Trondheim, og har bodd på St.
                 Hanshaugen i Oslo siden jeg var ferdig på NTNU i 2018. Jeg designer
-                digitale produkter med tro på at mindre ofte er mer — rolige
-                overganger, tydelig hierarki og systemer som holder uten å bli sterile.
+                digitale produkter som gjør en forskjell for de som bruker dem —
+                ikke bare løser kortsiktige problemer. Jeg jobber strategisk, og
+                liker enkle, fokuserte grensesnitt uten at de blir sterile.
               </p>
               <p>
-                Når jeg ikke jobber, tilbringer jeg tiden med mine to barn, aller
-                helst utendørs. Jeg er også glad i å lage mat til venner og familie,
-                prøver å bli bedre på håndarbeid, og leser gjerne en god bok.
+                Når jeg ikke jobber, tilbringer jeg aller helst tiden med mine to
+                barn, gjerne i aktivitet og utendørs. Jeg er også glad i å lage mat
+                til venner og familie, prøver å bli bedre på håndarbeid, og leser
+                hver kveld før jeg sovner.
               </p>
             </div>
           </div>
