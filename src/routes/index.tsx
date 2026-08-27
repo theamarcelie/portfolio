@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useRef } from "react";
 
 import { projects, type Project } from "@/lib/projects";
-import aboutTexture from "@/assets/about-texture.jpg";
+import theaPortrait from "@/assets/thea-portrait.jpg.asset.json";
 
 
 export const Route = createFileRoute("/")({
@@ -150,10 +150,10 @@ function Index() {
           <div className="reveal md:col-span-5">
             <div className="aspect-[4/5] overflow-hidden">
               <img
-                src={aboutTexture}
-                alt="An abstract mid-century still life in clay and ink"
-                width={1440}
-                height={1080}
+                src={theaPortrait.url}
+                alt="Portrett av Thea Svantorp"
+                width={1080}
+                height={1440}
                 loading="lazy"
                 className="h-full w-full object-cover"
               />
@@ -179,24 +179,6 @@ function Index() {
                 prøver å bli bedre på håndarbeid, og leser gjerne en god bok.
               </p>
             </div>
-            <dl className="mt-10 grid grid-cols-2 gap-x-8 gap-y-6 border-t border-border pt-8 text-sm">
-              <div>
-                <dt className="text-muted-foreground">Discipline</dt>
-                <dd className="mt-1 text-foreground">UI / Interaction</dd>
-              </div>
-              <div>
-                <dt className="text-muted-foreground">Based in</dt>
-                <dd className="mt-1 text-foreground">St. Hanshaugen, Oslo</dd>
-              </div>
-              <div>
-                <dt className="text-muted-foreground">Utdanning</dt>
-                <dd className="mt-1 text-foreground">NTNU, 2018</dd>
-              </div>
-              <div>
-                <dt className="text-muted-foreground">Fra</dt>
-                <dd className="mt-1 text-foreground">Trondheim</dd>
-              </div>
-            </dl>
           </div>
         </div>
       </section>
