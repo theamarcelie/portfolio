@@ -179,24 +179,6 @@ function Index() {
                 prøver å bli bedre på håndarbeid, og leser gjerne en god bok.
               </p>
             </div>
-            <dl className="mt-10 grid grid-cols-2 gap-x-8 gap-y-6 border-t border-border pt-8 text-sm">
-              <div>
-                <dt className="text-muted-foreground">Discipline</dt>
-                <dd className="mt-1 text-foreground">UI / Interaction</dd>
-              </div>
-              <div>
-                <dt className="text-muted-foreground">Based in</dt>
-                <dd className="mt-1 text-foreground">St. Hanshaugen, Oslo</dd>
-              </div>
-              <div>
-                <dt className="text-muted-foreground">Utdanning</dt>
-                <dd className="mt-1 text-foreground">NTNU, 2018</dd>
-              </div>
-              <div>
-                <dt className="text-muted-foreground">Fra</dt>
-                <dd className="mt-1 text-foreground">Trondheim</dd>
-              </div>
-            </dl>
           </div>
         </div>
       </section>
