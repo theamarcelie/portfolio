@@ -283,12 +283,6 @@ export const projects: Project[] = [
           "Forprosjektet vi ba om: bedre langtidsplan, dokumentasjon og en avklart visuell retning.",
         wide: true,
       },
-      {
-        src: arbeidsdagNextStep.url,
-        alt: "Slide: Vision and choices",
-        caption: "Neste steg: visjon og de valgene som følger av den.",
-        wide: true,
-      },
     ],
   },
   {
