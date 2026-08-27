@@ -22,6 +22,12 @@ import arbeidsdagBackground from "@/assets/arbeidsdag-background.png.asset.json"
 import arbeidsdagPreProject1 from "@/assets/arbeidsdag-pre-project-1.png.asset.json";
 import arbeidsdagPreProject from "@/assets/arbeidsdag-pre-project.png.asset.json";
 import arbeidsdagNextStep from "@/assets/arbeidsdag-next-step.png.asset.json";
+import arbeidsdagTaBesok from "@/assets/arbeidsdag-ta-besok.png.asset.json";
+import arbeidsdagAlleBesok from "@/assets/arbeidsdag-alle-besok.png.asset.json";
+import arbeidsdagKolleger from "@/assets/arbeidsdag-kolleger.png.asset.json";
+import arbeidsdagBeskjeder from "@/assets/arbeidsdag-beskjeder.png.asset.json";
+import arbeidsdagNyBeskjed from "@/assets/arbeidsdag-ny-beskjed.png.asset.json";
+import arbeidsdagPasientbeskjeder from "@/assets/arbeidsdag-pasientbeskjeder.png.asset.json";
 
 export type ProjectSection = {
   heading: string;
@@ -29,13 +35,15 @@ export type ProjectSection = {
 };
 
 export type ProjectGalleryItem = {
-  src: string;
-  alt: string;
+  src?: string;
+  alt?: string;
   caption: string;
   wide?: boolean;
   kind?: "image" | "video";
   portrait?: boolean;
+  group?: { src: string; alt: string }[];
 };
+
 
 export type Project = {
   slug: string;
@@ -210,6 +218,43 @@ export const projects: Project[] = [
           "Prinsippene vi jobbet etter — færre og mer presise funksjoner, et bevisst enkelt uttrykk, og et varmt men faglig språk.",
         wide: true,
       },
+      {
+        caption:
+          "Besøk og kollegaer: å ta et besøk med valgte oppgaver og starttid, dagens besøk i rekkefølge, og hvem som er på jobb — med telefonnummeret ett trykk unna.",
+        group: [
+          {
+            src: arbeidsdagTaBesok.url,
+            alt: "Skjerm «Ta besøk» med oppgaveliste og starttid for Anna Evensen",
+          },
+          {
+            src: arbeidsdagAlleBesok.url,
+            alt: "Skjerm «Alle besøk» med tidspunkt, navn og adresse per besøk",
+          },
+          {
+            src: arbeidsdagKolleger.url,
+            alt: "Skjerm «Kollegaer» med hvem som er på jobb og deres besøk",
+          },
+        ],
+      },
+      {
+        caption:
+          "Beskjeder: korte meldinger som ikke hører i journalen, med gyldighetsperiode, kvittering for utført og hvor mange som har sett dem.",
+        group: [
+          {
+            src: arbeidsdagBeskjeder.url,
+            alt: "Skjerm «Beskjeder» med aktive og utførte beskjeder",
+          },
+          {
+            src: arbeidsdagPasientbeskjeder.url,
+            alt: "Beskjeder knyttet til én pasient, med utfør-knapp",
+          },
+          {
+            src: arbeidsdagNyBeskjed.url,
+            alt: "Skjerm «Ny beskjed» med pasientsøk, tekstfelt og datointervall",
+          },
+        ],
+      },
+
       {
         src: arbeidsdagIcon.url,
         alt: "Appikonet i mørk og lys variant, i firkantet og rund maske",
