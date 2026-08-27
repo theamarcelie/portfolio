@@ -150,10 +150,10 @@ function Index() {
           <div className="reveal md:col-span-5">
             <div className="aspect-[4/5] overflow-hidden">
               <img
-                src={aboutTexture}
-                alt="An abstract mid-century still life in clay and ink"
-                width={1440}
-                height={1080}
+                src={theaPortrait.url}
+                alt="Portrett av Thea Svantorp"
+                width={1080}
+                height={1440}
                 loading="lazy"
                 className="h-full w-full object-cover"
               />
