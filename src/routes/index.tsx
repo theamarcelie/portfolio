@@ -164,15 +164,19 @@ function Index() {
               OM MEG
             </p>
             <h2 className="display-font mt-5 text-balance text-3xl leading-tight text-foreground md:text-4xl">
-              Design that earns its place by saying less.
+              Fra Trondheim til St. Hanshaugen — med design som rødt tråd.
             </h2>
             <div className="mt-7 space-y-5 text-base leading-relaxed text-muted-foreground">
-              <p>Jeg designer løsninger for&nbsp;</p>
               <p>
-                My work spans consumer finance, wellness, and editorial products.
-                I care about the quiet moments: a transition that breathes, a
-                label placed exactly where the eye expects it, a system that
-                stays consistent without becoming sterile.
+                Jeg heter Thea, er opprinnelig fra Trondheim, og har bodd på St.
+                Hanshaugen i Oslo siden jeg var ferdig på NTNU i 2018. Jeg designer
+                digitale produkter med tro på at mindre ofte er mer — rolige
+                overganger, tydelig hierarki og systemer som holder uten å bli sterile.
+              </p>
+              <p>
+                Når jeg ikke jobber, tilbringer jeg tiden med mine to barn, aller
+                helst utendørs. Jeg er også glad i å lage mat til venner og familie,
+                prøver å bli bedre på håndarbeid, og leser gjerne en god bok.
               </p>
             </div>
             <dl className="mt-10 grid grid-cols-2 gap-x-8 gap-y-6 border-t border-border pt-8 text-sm">
@@ -182,15 +186,15 @@ function Index() {
               </div>
               <div>
                 <dt className="text-muted-foreground">Based in</dt>
-                <dd className="mt-1 text-foreground">Oslo, Norway</dd>
+                <dd className="mt-1 text-foreground">St. Hanshaugen, Oslo</dd>
               </div>
               <div>
-                <dt className="text-muted-foreground">Practice</dt>
-                <dd className="mt-1 text-foreground">Independent</dd>
+                <dt className="text-muted-foreground">Utdanning</dt>
+                <dd className="mt-1 text-foreground">NTNU, 2018</dd>
               </div>
               <div>
-                <dt className="text-muted-foreground">Available</dt>
-                <dd className="mt-1 text-foreground">Selectively, 2026</dd>
+                <dt className="text-muted-foreground">Fra</dt>
+                <dd className="mt-1 text-foreground">Trondheim</dd>
               </div>
             </dl>
           </div>
