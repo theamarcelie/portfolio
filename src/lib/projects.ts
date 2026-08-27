@@ -67,16 +67,16 @@ export const projects: Project[] = [
     index: "01",
     title: "Kommunikasjon for helsepersonell",
     discipline: "E-MELDINGER OG CHAT",
-    year: "2025",
+    year: "2026",
     summary:
-      "I kommunehelsesektoren er det mange aktører som skal samarbeide om pasientbehandling.",
+      "Jeg jobber med kommunikasjonsflater i AIdn — e-meldinger og chat som to separate, men likevel sammenhengende flater.",
     image: projectAurora,
     alt: "E-meldinger innboks for helsepersonell vist på skjerm i et sykehjemskontor",
     intro:
-      "I kommunehelsesektoren skal mange aktører samarbeide om samme pasient. Jeg designet en samlet flate for e-meldinger og chat, slik at helsepersonell slipper å lete etter informasjon på tvers av systemer.",
+      "Siden mars 2026 har jeg jobbet med kommunikasjonsflater i AIdn. Jeg designer e-meldinger og chat som to separate flater, ikke én samlet — hver med sitt formål, men med felles pasientkontekst og et felles språk.",
     meta: [
       { label: "Rolle", value: "Produktdesigner" },
-      { label: "År", value: "2025" },
+      { label: "År", value: "2026" },
       { label: "Flate", value: "Desktop" },
       { label: "Bidrag", value: "Research, interaksjon, UI" },
     ],
@@ -98,8 +98,8 @@ export const projects: Project[] = [
       {
         heading: "Løsningen",
         body: [
-          "En innboks med tydelig status og avsender, pasientkort ved siden av meldingstråden, og en lesevisning som holder hele historikken tilgjengelig uten å kreve navigasjon bort fra tråden.",
-          "Språket er nøkternt og handlingsorientert: hva har skjedd, hva må gjøres, og av hvem.",
+          "To separate flater, ikke én samlet: e-meldinger for formell, journalførbar kommunikasjon, og chat for det raske, uformelle. Begge deler samme pasientkontekst og samme språk.",
+          "Hver flate har tydelig status og avsender, et pasientkort ved siden av tråden, og en lesevisning som holder historikken tilgjengelig uten å forlate tråden.",
         ],
       },
     ],
