@@ -29,13 +29,15 @@ export type ProjectSection = {
 };
 
 export type ProjectGalleryItem = {
-  src: string;
-  alt: string;
+  src?: string;
+  alt?: string;
   caption: string;
   wide?: boolean;
   kind?: "image" | "video";
   portrait?: boolean;
+  group?: { src: string; alt: string }[];
 };
+
 
 export type Project = {
   slug: string;
