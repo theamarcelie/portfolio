@@ -231,7 +231,7 @@ function ProjectRow({ project, flip }: { project: Project; flip: boolean }) {
         <Link
           to="/prosjekt/$slug"
           params={{ slug: project.slug }}
-          className="link-underline mt-8 inline-flex flex-col items-start text-sm text-foreground"
+          className="link-underline mt-8 inline-flex flex-row items-start text-sm text-foreground"
         >
           <span>Se mer</span>
           <span aria-hidden="true">→</span>
