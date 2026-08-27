@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useRef } from "react";
 
 import { projects, type Project } from "@/lib/projects";
-import aboutTexture from "@/assets/about-texture.jpg";
+import theaPortrait from "@/assets/thea-portrait.heic.asset.json";
 
 
 export const Route = createFileRoute("/")({
