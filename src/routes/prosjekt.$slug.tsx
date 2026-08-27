@@ -139,34 +139,49 @@ function ProjectPage() {
               </p>
               <div className="mt-10 flex flex-col gap-16 md:gap-24">
                 {project.gallery.map((item) => (
-                  <figure key={item.src}>
-                    <div
-                      className={
-                        item.portrait
-                          ? "overflow-hidden bg-secondary sm:max-w-[380px]"
-                          : "overflow-hidden bg-secondary"
-                      }
-                    >
-                      {item.kind === "video" ? (
-                        <video
-                          src={item.src}
-                          aria-label={item.alt}
-                          className="w-full"
-                          autoPlay
-                          loop
-                          muted
-                          playsInline
-                          controls
-                        />
-                      ) : (
-                        <img
-                          src={item.src}
-                          alt={item.alt}
-                          loading="lazy"
-                          className="w-full object-contain"
-                        />
-                      )}
-                    </div>
+                  <figure key={item.src ?? item.caption}>
+                    {item.group && item.group.length > 0 ? (
+                      <div className="grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-6">
+                        {item.group.map((shot) => (
+                          <img
+                            key={shot.src}
+                            src={shot.src}
+                            alt={shot.alt}
+                            loading="lazy"
+                            className="w-full rounded-xl bg-secondary object-contain"
+                          />
+                        ))}
+                      </div>
+                    ) : (
+                      <div
+                        className={
+                          item.portrait
+                            ? "overflow-hidden bg-secondary sm:max-w-[380px]"
+                            : "overflow-hidden bg-secondary"
+                        }
+                      >
+                        {item.kind === "video" ? (
+                          <video
+                            src={item.src}
+                            aria-label={item.alt}
+                            className="w-full"
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                            controls
+                          />
+                        ) : (
+                          <img
+                            src={item.src}
+                            alt={item.alt}
+                            loading="lazy"
+                            className="w-full object-contain"
+                          />
+                        )}
+                      </div>
+                    )}
+
                     <figcaption className="mt-4 max-w-xl text-sm leading-relaxed text-muted-foreground">
                       {item.caption}
                     </figcaption>
