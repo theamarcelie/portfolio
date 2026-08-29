@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useRef } from "react";
 
 import { projects, type Project } from "@/lib/projects";
-import theaPortrait from "@/assets/thea-portrait.jpg.asset.json";
+import theaPortrait from "@/assets/thea-portrait.jpg";
 
 
 export const Route = createFileRoute("/")({
@@ -150,7 +150,7 @@ function Index() {
           <div className="reveal md:col-span-5">
             <div className="aspect-[4/5] overflow-hidden">
               <img
-                src={theaPortrait.url}
+                src={theaPortrait}
                 alt="Portrett av Thea Svantorp"
                 width={1080}
                 height={1440}
