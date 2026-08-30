@@ -1,33 +1,33 @@
 import projectAurora from "@/assets/project-aurora.jpg";
 import projectSaga from "@/assets/project-saga.jpg";
 import projectLumen from "@/assets/project-lumen.jpg";
-import layoutAsset from "@/assets/Layout.png.asset.json";
-import section1Asset from "@/assets/Section_1.png.asset.json";
-import section2Asset from "@/assets/Section_2.png.asset.json";
-import shortcutAsset from "@/assets/shortcut.png.asset.json";
-import statuser1 from "@/assets/statuser-1.png.asset.json";
-import statuser2 from "@/assets/statuser-2.png.asset.json";
-import statuser3 from "@/assets/statuser-3.png.asset.json";
-import statuser4 from "@/assets/statuser-4.png.asset.json";
-import statuser5 from "@/assets/statuser-5.png.asset.json";
-import statuser6 from "@/assets/statuser-6.png.asset.json";
-import statuser7 from "@/assets/statuser-7.png.asset.json";
-import annonserDemo from "@/assets/mine-annonser-demo.mp4.asset.json";
-import arbeidsdagBrief from "@/assets/arbeidsdag-brief.png.asset.json";
-import arbeidsdagUserGroup from "@/assets/arbeidsdag-user-group.png.asset.json";
-import arbeidsdagJ2bd from "@/assets/arbeidsdag-j2bd.png.asset.json";
-import arbeidsdagPrinsipper from "@/assets/arbeidsdag-prinsipper.png.asset.json";
-import arbeidsdagIcon from "@/assets/arbeidsdag-icon.png.asset.json";
-import arbeidsdagBackground from "@/assets/arbeidsdag-background.png.asset.json";
-import arbeidsdagPreProject1 from "@/assets/arbeidsdag-pre-project-1.png.asset.json";
-import arbeidsdagPreProject from "@/assets/arbeidsdag-pre-project.png.asset.json";
-import arbeidsdagNextStep from "@/assets/arbeidsdag-next-step.png.asset.json";
-import arbeidsdagTaBesok from "@/assets/arbeidsdag-ta-besok.png.asset.json";
-import arbeidsdagAlleBesok from "@/assets/arbeidsdag-alle-besok.png.asset.json";
-import arbeidsdagKolleger from "@/assets/arbeidsdag-kolleger.png.asset.json";
-import arbeidsdagBeskjeder from "@/assets/arbeidsdag-beskjeder.png.asset.json";
-import arbeidsdagNyBeskjed from "@/assets/arbeidsdag-ny-beskjed.png.asset.json";
-import arbeidsdagPasientbeskjeder from "@/assets/arbeidsdag-pasientbeskjeder.png.asset.json";
+import layoutAsset from "@/assets/Layout.png";
+import section1Asset from "@/assets/Section_1.png";
+import section2Asset from "@/assets/Section_2.png";
+import shortcutAsset from "@/assets/shortcut.png";
+import statuser1 from "@/assets/statuser-1.png";
+import statuser2 from "@/assets/statuser-2.png";
+import statuser3 from "@/assets/statuser-3.png";
+import statuser4 from "@/assets/statuser-4.png";
+import statuser5 from "@/assets/statuser-5.png";
+import statuser6 from "@/assets/statuser-6.png";
+import statuser7 from "@/assets/statuser-7.png";
+import annonserDemo from "@/assets/mine-annonser-demo.mp4";
+import arbeidsdagBrief from "@/assets/arbeidsdag-brief.png";
+import arbeidsdagUserGroup from "@/assets/arbeidsdag-user-group.png";
+import arbeidsdagJ2bd from "@/assets/arbeidsdag-j2bd.png";
+import arbeidsdagPrinsipper from "@/assets/arbeidsdag-prinsipper.png";
+import arbeidsdagIcon from "@/assets/arbeidsdag-icon.png";
+import arbeidsdagBackground from "@/assets/arbeidsdag-background.png";
+import arbeidsdagPreProject1 from "@/assets/arbeidsdag-pre-project-1.png";
+import arbeidsdagPreProject from "@/assets/arbeidsdag-pre-project.png";
+import arbeidsdagNextStep from "@/assets/arbeidsdag-next-step.png";
+import arbeidsdagTaBesok from "@/assets/arbeidsdag-ta-besok.png";
+import arbeidsdagAlleBesok from "@/assets/arbeidsdag-alle-besok.png";
+import arbeidsdagKolleger from "@/assets/arbeidsdag-kolleger.png";
+import arbeidsdagBeskjeder from "@/assets/arbeidsdag-beskjeder.png";
+import arbeidsdagNyBeskjed from "@/assets/arbeidsdag-ny-beskjed.png";
+import arbeidsdagPasientbeskjeder from "@/assets/arbeidsdag-pasientbeskjeder.png";
 
 export type ProjectSection = {
   heading: string;
@@ -98,28 +98,28 @@ export const projects: Project[] = [
     ],
     gallery: [
       {
-        src: layoutAsset.url,
+        src: layoutAsset,
         alt: "Skjermbilde av dialogen «Helsefaglig dialog» med avsender, mottaker, tema, emne og notat",
         caption:
           "Ny e-melding: skjemaet holder pasientkonteksten i venstre kolonne, mens dialogen forklarer hvilke mottakere som faktisk støtter meldingstypen.",
         wide: true,
       },
       {
-        src: shortcutAsset.url,
+        src: shortcutAsset,
         alt: "Mottakersøk med snarveier til fagområder og «Sist brukt av deg»",
         caption:
           "Snarveier og «sist brukt» kutter det mest repetitive søket etter mottaker.",
         wide: true,
       },
       {
-        src: section1Asset.url,
+        src: section1Asset,
         alt: "Rekke med mobilskjermer som viser flyten for å starte en ny samtale",
         caption:
           "Mobilflyten for ny samtale, skjerm for skjerm — fra tomt utgangspunkt til valgte mottakere og sendt melding.",
         wide: true,
       },
       {
-        src: section2Asset.url,
+        src: section2Asset,
         alt: "To mobilskjermer med chat-tråden «Påskeferien»",
         caption:
           "Chat-tråden i to varianter: med og uten avsendernavn og lest-status.",
@@ -184,28 +184,28 @@ export const projects: Project[] = [
     ],
     gallery: [
       {
-        src: arbeidsdagBrief.url,
+        src: arbeidsdagBrief,
         alt: "Slide: Brief — lag en native app for «Min arbeidsdag» til hjemmetjenesten, tilgjengelig offline",
         caption:
           "Briefen: dekke funksjonaliteten i «Min arbeidsdag» i en native app for hjemmebaserte tjenester — offline, med frist 1. april.",
         wide: true,
       },
       {
-        src: arbeidsdagUserGroup.url,
+        src: arbeidsdagUserGroup,
         alt: "Slide: My workday user group med bilder av brukerne, kontoret deres og verktøyene deres",
         caption:
           "Brukergruppen: kontoret er bilen og pasientens hjem, og verktøyene er en delt telefon og et papirark i lomma.",
         wide: true,
       },
       {
-        src: arbeidsdagJ2bd.url,
+        src: arbeidsdagJ2bd,
         alt: "Slide: Jobs to be done — funksjonelle, emosjonelle og sosiale behov",
         caption:
           "Jobs to be done: oversikt over dagen og enkel dokumentasjon, trygghet før krevende besøk, og et team det er lett å be om hjelp i.",
         wide: true,
       },
       {
-        src: arbeidsdagPrinsipper.url,
+        src: arbeidsdagPrinsipper,
         alt: "Slide: prinsipper for funksjon, visuelt uttrykk og innhold",
         caption:
           "Prinsippene vi jobbet etter — færre og mer presise funksjoner, et bevisst enkelt uttrykk, og et varmt men faglig språk.",
@@ -216,15 +216,15 @@ export const projects: Project[] = [
           "Besøk og kollegaer: å ta et besøk med valgte oppgaver og starttid, dagens besøk i rekkefølge, og hvem som er på jobb — med telefonnummeret ett trykk unna.",
         group: [
           {
-            src: arbeidsdagTaBesok.url,
+            src: arbeidsdagTaBesok,
             alt: "Skjerm «Ta besøk» med oppgaveliste og starttid for Anna Evensen",
           },
           {
-            src: arbeidsdagAlleBesok.url,
+            src: arbeidsdagAlleBesok,
             alt: "Skjerm «Alle besøk» med tidspunkt, navn og adresse per besøk",
           },
           {
-            src: arbeidsdagKolleger.url,
+            src: arbeidsdagKolleger,
             alt: "Skjerm «Kollegaer» med hvem som er på jobb og deres besøk",
           },
         ],
@@ -234,43 +234,43 @@ export const projects: Project[] = [
           "Beskjeder: korte meldinger som ikke hører i journalen, med gyldighetsperiode, kvittering for utført og hvor mange som har sett dem.",
         group: [
           {
-            src: arbeidsdagBeskjeder.url,
+            src: arbeidsdagBeskjeder,
             alt: "Skjerm «Beskjeder» med aktive og utførte beskjeder",
           },
           {
-            src: arbeidsdagPasientbeskjeder.url,
+            src: arbeidsdagPasientbeskjeder,
             alt: "Beskjeder knyttet til én pasient, med utfør-knapp",
           },
           {
-            src: arbeidsdagNyBeskjed.url,
+            src: arbeidsdagNyBeskjed,
             alt: "Skjerm «Ny beskjed» med pasientsøk, tekstfelt og datointervall",
           },
         ],
       },
 
       {
-        src: arbeidsdagIcon.url,
+        src: arbeidsdagIcon,
         alt: "Appikonet i mørk og lys variant, i firkantet og rund maske",
         caption:
           "Appikonet i prod- og testvariant, testet i både firkantet og rund maske.",
         wide: true,
       },
       {
-        src: arbeidsdagBackground.url,
+        src: arbeidsdagBackground,
         alt: "To statiske bakgrunnsbilder med myke rosa og oransje gradienter",
         caption:
           "Bakgrunnene: statiske, myke gradienter som gir appen varme uten å stjele oppmerksomhet fra innholdet.",
         wide: true,
       },
       {
-        src: arbeidsdagPreProject1.url,
+        src: arbeidsdagPreProject1,
         alt: "Slide: What we have instead, med skjermbilder av dagsoversikt og besøk hos Anna",
         caption:
           "Resultatet ved frist: en fungerende app med dagsoversikt og oppgaver per besøk, innlogging løst med IAM og HelseID.",
         wide: true,
       },
       {
-        src: arbeidsdagPreProject.url,
+        src: arbeidsdagPreProject,
         alt: "Slide: Pre project? med telefon som viser medisinutdeling",
         caption:
           "Forprosjektet vi ba om: bedre langtidsplan, dokumentasjon og en avklart visuell retning.",
@@ -323,7 +323,7 @@ export const projects: Project[] = [
     ],
     gallery: [
       {
-        src: annonserDemo.url,
+        src: annonserDemo,
         alt: "Skjermopptak av annonseoversikten der status og handlinger endrer seg",
         caption:
           "Prototypen i bruk: statusen og de tilgjengelige handlingene endrer seg sammen med hvor annonsen er i livsløpet.",
@@ -331,49 +331,49 @@ export const projects: Project[] = [
         portrait: true,
       },
       {
-        src: statuser1.url,
+        src: statuser1,
         alt: "Slide: Visste du at annonser også har et livsløp?",
         caption:
           "Utgangspunktet for statusprosjektet — behovet for å forenkle, og kostnaden av kompleksiteten vi eksponerte.",
         wide: true,
       },
       {
-        src: statuser2.url,
+        src: statuser2,
         alt: "Slide: Brukerbehov og teknisk forenkling med tre faser før, under og etter",
         caption:
           "Nesten alle som legger ut en annonse går gjennom de samme tre fasene: før, under og etter.",
         wide: true,
       },
       {
-        src: statuser3.url,
+        src: statuser3,
         alt: "Slide: Brukerbehov med eksempler på statuser og handlinger",
         caption:
           "Statusene som fantes rundt om i produktet — inkonsekvente navn for det samme, og ulike handlinger per flate.",
         wide: true,
       },
       {
-        src: statuser4.url,
+        src: statuser4,
         alt: "Slide: Teknisk forenkling — fasaden som samler admin, apper, import og Innfinn",
         caption:
           "Fasaden: alle kildene som setter status samles bak én beskrivelse av vare eller tjeneste.",
         wide: true,
       },
       {
-        src: statuser5.url,
+        src: statuser5,
         alt: "Slide: Statuser og handlinger plassert i fasene før, under og etter",
         caption:
           "Hele kartet: hver status og handling plassert i brukerreisen, sett fra både selger og kjøper.",
         wide: true,
       },
       {
-        src: statuser6.url,
+        src: statuser6,
         alt: "Slide: Fra 72 til 7 statuser med forklaring av hver status",
         caption:
           "Resultatet: 7 statuser med tydelig definisjon, prioritert slik at brukeren alltid ser den mest relevante.",
         wide: true,
       },
       {
-        src: statuser7.url,
+        src: statuser7,
         alt: "Slide: Gjenstående nøtter med gule og grønne lapper",
         caption:
           "Gjenstående nøtter — kjente utfordringer vi bevisst lot ligge til neste runde.",
