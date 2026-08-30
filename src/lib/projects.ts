@@ -18,15 +18,15 @@ import arbeidsdagUserGroup from "@/assets/arbeidsdag-user-group.webp";
 import arbeidsdagJ2bd from "@/assets/arbeidsdag-j2bd.webp";
 import arbeidsdagPrinsipper from "@/assets/arbeidsdag-prinsipper.webp";
 import arbeidsdagIcon from "@/assets/arbeidsdag-icon.webp";
-import arbeidsdagBackground from "@/assets/arbeidsdag-background.png";
-import arbeidsdagPreProject1 from "@/assets/arbeidsdag-pre-project-1.png";
-import arbeidsdagPreProject from "@/assets/arbeidsdag-pre-project.png";
+import arbeidsdagBackground from "@/assets/arbeidsdag-background.webp";
+import arbeidsdagPreProject1 from "@/assets/arbeidsdag-pre-project-1.webp";
+import arbeidsdagPreProject from "@/assets/arbeidsdag-pre-project.webp";
 import arbeidsdagNextStep from "@/assets/arbeidsdag-next-step.png";
 import arbeidsdagTaBesok from "@/assets/arbeidsdag-Ta_bes--k.png";
 import arbeidsdagAlleBesok from "@/assets/arbeidsdag-Alle_bes--k.png";
 import arbeidsdagKolleger from "@/assets/arbeidsdag-Kolleger.png";
-import arbeidsdagBeskjeder from "@/assets/arbeidsdag-beskjeder.png";
-import arbeidsdagNyBeskjed from "@/assets/arbeidsdag-ny-beskjed.png";
+import arbeidsdagBeskjeder from "@/assets/arbeidsdag-Messages.png";
+import arbeidsdagNyBeskjed from "@/assets/arbeidsdag-New_message.png";
 import arbeidsdagPasientbeskjeder from "@/assets/arbeidsdag-Patient_messages-2.png";
 
 export type ProjectSection = {
